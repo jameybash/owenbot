@@ -1,0 +1,6 @@
+require 'dentaku'
+require 'slack-ruby-bot'
+require 'owenbot/version'
+require 'owenbot/about'
+require 'owenbot/commands'
+require 'owenbot/bot'

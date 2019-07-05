@@ -1,6 +1,6 @@
 {
-	"name": "Math bot for Slack",
-	"description": "Slack integration with math.",
-	"respository": "https://github.com/dblock/slack-mathbot",
+	"name": "Owenbot",
+	"description": "O.W.E.N. replacement protocol for when Owen Alea is too busy for your b.s.",
+	"respository": "https://github.com/jameybash/owenbot",
 	"keywords": ["slack", "integration", "math"],
 }

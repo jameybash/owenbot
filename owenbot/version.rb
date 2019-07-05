@@ -1,3 +1,3 @@
-module SlackMathbot
+module Owenbot
   VERSION = '0.1.0'.freeze
 end

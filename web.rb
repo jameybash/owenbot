@@ -1,9 +1,9 @@
 require 'sinatra/base'
 
-module SlackMathbot
+module Owenbot
   class Web < Sinatra::Base
     get '/' do
-      'Math is good for you.'
+      "I'm not a stage magician, Carolyn."
     end
   end
 end

@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe SlackMathbot do
+describe Owenbot do
   it 'has a version' do
-    expect(SlackMathbot::VERSION).to_not be nil
+    expect(Owenbot::VERSION).to_not be nil
   end
 end

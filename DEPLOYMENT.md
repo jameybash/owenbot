@@ -6,7 +6,7 @@ Create a new Bot Integration under [services/new/bot](http://slack.com/services/
 
 On the next screen, note the API token.
 
-## Deploy Slack-Mathbot
+## Deploy Owenbot
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 

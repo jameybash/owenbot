@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe SlackMathbot::Commands::Help do
-  let(:app) { SlackMathbot::Bot.instance }
+describe Owenbot::Commands::Help do
+  let(:app) { Owenbot::Bot.instance }
   it 'help' do
-    expect(message: 'mathbot help').to respond_with_slack_message('See https://github.com/dblock/slack-mathbot, please.')
+    expect(message: 'owenbot help').to respond_with_slack_message('See https://github.com/jameybash/owenbot, please.')
   end
 end
