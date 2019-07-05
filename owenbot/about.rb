@@ -1,7 +1,6 @@
 module Owenbot
   ABOUT = <<-ABOUT.freeze
-    #{Owenbot::VERSION}
-    https://github.com/jameybash/owenbot
-    https://twitter.com/jameybash
+    About me: I am O.W.E.N. replacement protocol version ##{Owenbot::VERSION}
+    Owen Alea built me because he was sick of answering all of your dumb questions all the time.
   ABOUT
 end

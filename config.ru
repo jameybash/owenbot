@@ -6,11 +6,13 @@ require 'web'
 SlackRubyBot::Client.logger.level = Logger::INFO
 
 Thread.new do
-  Owenbot::Bot.run
-rescue Exception => e
-  STDERR.puts "ERROR: #{e}"
-  STDERR.puts e.backtrace
-  raise e
+  begin
+    Owenbot::Bot.run
+  rescue Exception => e
+    STDERR.puts "ERROR: #{e}"
+    STDERR.puts e.backtrace
+    raise e
+  end
 end
 
 run Owenbot::Web
