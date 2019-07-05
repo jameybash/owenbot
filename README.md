@@ -5,7 +5,7 @@ A message from Owen Alea:
 
 "Hello Anarchs of Progress Heights! Answering all of your questions has become like a full-time job, of which I already had one, so I've built a robot to offload some of my work load. Please bring all your inquiries to Owenbot first and only bother me with them if his answers are insufficient. Thanks for your understanding."
 
-![](images/owen_cartoon.jpg =250x)
+<img src="images/owen_cartoon.jpg" width="250" height="250" />
 
 ## Installation
 
