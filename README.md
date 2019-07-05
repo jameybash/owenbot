@@ -1,11 +1,11 @@
-Slack-Mathbot
+Owenbot
 =============
 
-[![Build Status](https://travis-ci.org/dblock/slack-mathbot.png)](https://travis-ci.org/dblock/slack-mathbot)
+A message from Owen Alea:
 
-A math bot for Slack. Math is good for you.
+"Hello Anarchs of Progress Heights! Answering all of your questions has become like a full-time job, of which I already had one, so I've built a robot to offload some of my work load. Please bring all your inquiries to Owenbot first and only bother me with them if his answers are insufficient. Thanks for your understanding."
 
-![](screenshots/two-plus-two.gif)
+![](images/owen_cartoon.jpg)
 
 ## Installation
 
@@ -13,25 +13,27 @@ See [DEPLOYMENT](DEPLOYMENT.md).
 
 ## Usage
 
-Invite your bot to a channel. Do math by starting a message with an equal sign.
-
-![](screenshots/example.gif)
+Invite Owenbot to a channel and let him answer all your stupid questions, like he already does all the time anyway.
 
 ### Commands
 
-#### mathbot calculate [expression]
+#### owenbot calculate [expression]
 
-Calculates an expression, currently just basic math. See [Dentaku](https://github.com/rubysolo/dentaku) for what's supported.
+Calculates a basic math expression. See [Dentaku](https://github.com/rubysolo/dentaku) for what's supported.
 
-#### mathbot
+You can also do math by starting a message with an equal sign.
 
-Shows MathBot version and links.
+![](images/two-plus-two.gif)
 
-#### mathbot hi
+#### owenbot
+
+Shows Owenbot version and links.
+
+#### owenbot hi
 
 Politely says 'hi' back.
 
-#### mathbot help
+#### owenbot help
 
 Get help.
 
@@ -41,6 +43,6 @@ See [CONTRIBUTING](CONTRIBUTING.md).
 
 ## Copyright and License
 
-Copyright (c) 2015, Daniel Doubrovkine, Artsy and [Contributors](CHANGELOG.md).
+This project was originally forked from [slack-mathbot](https://github.com/dblock/slack-mathbot), which is copyright (c) 2015, Daniel Doubrovkine, Artsy and [Contributors](CHANGELOG.md).
 
 This project is licensed under the [MIT License](LICENSE.md).

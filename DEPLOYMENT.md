@@ -2,7 +2,7 @@
 
 Create a new Bot Integration under [services/new/bot](http://slack.com/services/new/bot).
 
-![](screenshots/register-bot.png)
+![](images/register-bot.png)
 
 On the next screen, note the API token.
 
@@ -22,7 +22,7 @@ heroku config:add SLACK_API_TOKEN=...
 
 #### GIPHY_API_KEY
 
-Slack-Mathbot replies with animated GIFs. While it's currently not necessary, you may need to set GIPHY_API_KEY in the future, see [github.com/Giphy/GiphyAPI](https://github.com/Giphy/GiphyAPI) for details.
+Owenbot replies with animated GIFs. While it's currently not necessary, you may need to set GIPHY_API_KEY in the future, see [github.com/Giphy/GiphyAPI](https://github.com/Giphy/GiphyAPI) for details.
 
 ### Heroku Idling
 
