@@ -1,8 +1,17 @@
 module Owenbot
   module Commands
     class Responses < SlackRubyBot::Commands::Base
+      command 'hi', 'hello' do |client, data, _match|
+        client.say(channel: data.channel, text: "Hi <@#{data.user}>!")
+      end
+
       command 'thank you', 'thanks' do |client, data, _match|
-        client.say(channel: data.channel, text: "You're welcome!")
+        rand = rand(5)
+        if rand == 0
+          client.say(channel: data.channel, text: "Okay, but please stop asking me for stuff.")
+        else
+          client.say(channel: data.channel, text: "You're welcome!")
+        end
       end
 
       command 'say hi to' do |client, data, match|
