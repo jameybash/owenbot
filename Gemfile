@@ -8,6 +8,7 @@ gem 'puma'
 gem 'sinatra'
 gem 'slack-ruby-bot', '~> 0.12.0'
 gem 'wikipedia-client'
+gem 'google-cloud-translate'
 
 group :development, :test do
   gem 'foreman'
