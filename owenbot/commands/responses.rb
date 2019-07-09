@@ -14,11 +14,19 @@ module Owenbot
         end
       end
 
+      command 'i love you' do |client, data, match|
+        if data.user == 'UGA4HPFQX'
+          client.say(channel: data.channel, text: "I love you too")
+        else
+          client.say(channel: data.channel, text: "Oh, that's cool")
+        end
+      end
+
       command 'say hi to' do |client, data, match|
         client.say(channel: data.channel, text: "Hi #{match[:expression]}!")
       end
 
-      command 'are you awake' do |client, data, _match|
+      command 'are you awake', 'are you awake?' do |client, data, _match|
         client.say(channel: data.channel, text: "Yep, good morning!")
       end
 
