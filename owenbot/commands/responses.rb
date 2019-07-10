@@ -14,12 +14,24 @@ module Owenbot
         end
       end
 
-      command 'i love you' do |client, data, match|
+      command 'i love you' do |client, data, _match|
         if data.user == 'UGA4HPFQX'
           client.say(channel: data.channel, text: "I love you too")
         else
           client.say(channel: data.channel, text: "Oh, that's cool")
         end
+      end
+
+      command 'thumbs' do |client, data, _match|
+        client.say(channel: data.channel, text: ":thumbsup::skin-tone-3:")
+      end
+
+      command 'high five' do |client, data, _match|
+        client.say(channel: data.channel, text: ":hand::skin-tone-3:")
+      end
+
+      command 'fist bump' do |client, data, _match|
+        client.say(channel: data.channel, text: ":right-facing_fist::skin-tone-3:")
       end
 
       command 'say hi to' do |client, data, match|
