@@ -45,6 +45,10 @@ module Owenbot
       scan('real magic') do |client, data, stocks|
         client.say(channel: data.channel, text: "I'm not a stage magician, Carolyn.")
       end
+
+      scan('certamen') do |client, data, stocks|
+        client.say(channel: data.channel, text: "Oh geez, we're going to have to get the real Owen for this...")
+      end
     end
   end
 end
