@@ -42,6 +42,10 @@ module Owenbot
         client.say(channel: data.channel, text: "Yep, good morning!")
       end
 
+      command 'show me the ketchup' do |client, data, _match|
+        client.say(channel: data.channel, text: 'https://i.imgur.com/kj8RJ5N.jpg')
+      end
+
       scan('real magic') do |client, data, stocks|
         client.say(channel: data.channel, text: "I'm not a stage magician, Carolyn.")
       end
