@@ -4,11 +4,13 @@ module Owenbot
       require 'google/cloud/translate'
 
       command 'how do you say' do |client, data, match|
+        query = match[:expression].gsub(/\?.*/, '')
+
         translate = Google::Cloud::Translate.new project: ENV['TRANSLATE_PROJECT']
 
-        translation = translate.translate match[:expression], to: "el"
+        translation = translate.translate query, to: "el"
 
-        client.say(channel: data.channel, text: "\"#{match[:expression]}\" in greek is \"#{translation.text}\"")
+        client.say(channel: data.channel, text: "\"#{query}\" in greek is \"#{translation.text}\"")
       end
     end
   end

@@ -4,7 +4,7 @@ module Owenbot
       require 'wikipedia'
 
       command 'wiki', 'what is', 'who is', 'tell me about', 'what do you know about', 'what can you tell me about' do |client, data, match|
-        page = Wikipedia.find(match[:expression])
+        page = Wikipedia.find(match[:expression].gsub(/\?.*/, ''))
         text = if !page.summary.nil?
                  page.summary&.split("\n", 2)[0]
                else
