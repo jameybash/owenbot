@@ -42,6 +42,10 @@ module Owenbot
         client.say(channel: data.channel, text: "Yep, good morning!")
       end
 
+      command 'are you gay for pay', 'are you gay for pay?' do |client, data, _match|
+        client.say(channel: data.channel, text: "No, I'm gay for free like an idiot.")
+      end
+
       command 'show me the ketchup' do |client, data, _match|
         client.say(channel: data.channel, text: 'https://i.imgur.com/kj8RJ5N.jpg')
       end
